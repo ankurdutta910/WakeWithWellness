@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: #444444;
+
+   }
+
+a {
+  color: #04C3FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0072bc;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif, monospace;
+}
+
+
+
+
+
+
+
+
+
+   /*Scrollbar*/
+   /* width */
+   ::-webkit-scrollbar {
+    display: block;
+    width: 6px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2e2e2e00;
+  } 
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(207, 207, 207);
+  }
+   
+  /* Handle on hover */
+   ::-webkit-scrollbar-thumb:hover {
+    background: rgb(185, 185, 185);
+  } 
+
+/* Navbar */
+
+@media (min-width: 992px){
+
+  #navbarText{
+    background-color: rgb(0,0,0,0,0);
+  }
+}
+
+@media (max-width: 991px){
+  #navbarText{
+    background-color: black;
+  }
+  .navbar img{
+    width:'50px';
+    height:'auto'
+  }
+}
+
+
+.navbar{
+ 
+    z-index:2;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+  }
+  .close-navbar-toggler{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:1;
+    cursor:pointer;
+  }
+  .close-navbar-toggler.collapsed{
+    z-index:-1;
+  }
+
+
+  #logoimg{
+    height:auto;
+    width:35vh;
+
+  }
+
+  @media (max-width: 720px) {
+    #logoimg{
+      height:auto;
+      width:29vh;
+  
+    }
+  }

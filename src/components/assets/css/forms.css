@@ -1,0 +1,553 @@
+#recrut {
+     width: 100%;
+     height: 50vh;
+     background: url("https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80") top center;
+     background-size: cover;
+     position: relative;
+	
+	
+   }
+   
+   #recrut:before {
+     content: "";
+     background: rgba(0, 0, 0, 0.6);
+     position: absolute;
+     bottom: 0;
+     top: 0;
+     left: 0;
+     right: 0;
+   }
+   
+   #recrut .container {
+     position: relative;
+     padding-top: 74px;
+     text-align: center;
+   }
+   
+   #recrut h1 {
+     margin: 0;
+     font-size: 45px;
+     font-weight: 700;
+     line-height: 64px;
+     color: #fff;
+     font-family: "Poppins", sans-serif;
+   }
+   
+   #recrut h1 span {
+     color: #1399f2;
+   }
+   
+   #recrut h2 {
+     color: rgba(255, 255, 255, 0.9);
+     margin: 10px 0 0 0;
+     font-size: 24px;
+   }
+   
+   #recrut .icon-box {
+     padding: 30px 20px;
+     transition: ease-in-out 0.3s;
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     height: 100%;
+     text-align: center;
+   }
+   
+   #recrut .icon-box i {
+     font-size: 32px;
+     line-height: 1;
+     color: #1399f2;
+   }
+   
+   #recrut .icon-box h3 {
+     font-weight: 700;
+     margin: 10px 0 0 0;
+     padding: 0;
+     line-height: 1;
+     font-size: 20px;
+     line-height: 26px;
+   }
+   
+   #recrut .icon-box h3 a {
+     color: #fff;
+     transition: ease-in-out 0.3s;
+   }
+   
+   #recrut .icon-box h3 a:hover {
+     color: #0072bc;
+   }
+   
+   #recrut .icon-box:hover {
+     border-color: #0072bc;
+   }
+   
+   @media (min-width: 1024px) {
+     #recrut {
+       background-attachment: fixed;
+	 
+     }
+   }
+   
+   @media (max-width: 768px) {
+     #recrut {
+       height: auto;
+     }
+     #recrut h1 {
+	
+       font-size: 28px;
+       line-height: 36px;
+	  margin-top: 70px;
+     }
+     #recrut h2 {
+       font-size: 20px;
+       line-height: 24px;
+     }
+   }
+
+
+   #formrecruit{
+     max-width: 110vh;
+   }
+
+
+  
+
+
+
+
+
+
+   #blood {
+    width: 100%;
+    height: 50vh;
+    background: url("https://img.freepik.com/premium-photo/3d-render-blood-cells-flowing-through-arteries-veins_161488-209.jpg?w=1380") top center;
+    background-size: cover;
+    position: relative;
+ 
+ 
+  }
+
+  #blood:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #blood .container {
+    position: relative;
+    padding-top: 74px;
+    text-align: center;
+  }
+  
+  #blood h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #blood h1 span {
+    color: #1399f2;
+  }
+  
+  #blood h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 2px 0 0 0;
+    font-size: 19px;
+  }
+  
+  #blood .icon-box {
+    padding: 30px 20px;
+    transition: ease-in-out 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+  }
+  
+  #blood .icon-box i {
+    font-size: 32px;
+    line-height: 1;
+    color: #1399f2;
+  }
+  
+  #blood .icon-box h3 {
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #blood .icon-box h3 a {
+    color: #fff;
+    transition: ease-in-out 0.3s;
+  }
+  
+  #blood .icon-box h3 a:hover {
+    color: #0072bc;
+  }
+  
+  #blood .icon-box:hover {
+    border-color: #0072bc;
+  }
+
+  #partb h4{
+    font-weight: 700;
+  }
+  
+  @media (min-width: 1024px) {
+    #blood {
+      background-attachment: fixed;
+  
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #blood {
+      height: auto;
+    }
+    #blood h1 {
+ 
+      font-size: 28px;
+      line-height: 36px;
+   margin-top: 70px;
+    }
+    #blood h2 {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+
+
+  #formrecruit{
+    max-width: 110vh;
+  }
+
+
+
+  #fundrow2 {
+    margin-top: -100px;
+  }
+
+  @media (max-width: 768px) {
+    #fundrow2 {
+      margin-top:50px;
+    }
+   
+ 
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    #fundrow2 {
+      margin-top:100px;
+    }
+   
+ 
+  }
+
+
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    #fundrow2 {
+      margin-top:-230px;
+    }
+   
+ 
+  }
+
+
+
+  #galleryy {
+    width: 100%;
+    height: 45vh;
+    background: url("https://images.unsplash.com/photo-1601614514155-0fa833ae6682?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") top center;
+    background-size: cover;
+    position: relative;
+ 
+ 
+  }
+  
+  #galleryy:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.723);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #galleryy .container {
+    position: relative;
+    padding-top: 74px;
+    text-align: center;
+  }
+  
+  #galleryy h1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #galleryy h1 span {
+    color: #ffc451;
+  }
+  
+  #galleryy h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  
+
+  
+  @media (min-width: 1024px) {
+    #galleryy {
+      background-attachment: fixed;
+  
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #galleryy {
+      height: auto;
+    }
+    #galleryy h1 {
+ 
+      font-size: 28px;
+      line-height: 36px;
+   margin-top: 70px;
+    }
+    #galleryy h2 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+
+
+ 
+
+
+
+
+
+
+
+  #blogwrite {
+    width: 100%;
+    height: 45vh;
+    background: url("https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80") top center;
+    background-size: cover;
+    position: relative;
+ 
+ 
+  }
+
+  #blogwrite:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #blogwrite .container {
+    position: relative;
+    padding-top: 65px;
+    text-align: center;
+  }
+  
+  #blogwrite h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+  #partb h4{
+    font-weight: 700;
+  }
+  
+  @media (min-width: 1024px) {
+    #blogwrite {
+      background-attachment: fixed;
+  
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #blogwrite {
+      height: auto;
+    }
+    #blogwrite h1 {
+ 
+      font-size: 22px;
+   margin-top: 45px;
+    }
+    #blogwrite h2 {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+
+
+
+
+
+
+
+  #cleandrive {
+    width: 100%;
+    height: 45vh;
+    background: url("https://cdn.britannica.com/51/124451-050-B0B0222D/view-Guwahati-Assam-India.jpg") top center;
+    background-size: cover;
+    position: relative;
+ 
+ 
+  }
+
+  #cleandrive:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #cleandrive .container {
+    position: relative;
+    padding-top: 65px;
+    text-align: center;
+  }
+  
+  #cleandrive h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #cleandrive h1 span {
+    color: #ffc451;
+  }
+  
+  #cleandrive h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 2px 0 0 0;
+    font-size: 28px;
+  }
+  
+
+  #partb h4{
+    font-weight: 700;
+  }
+  
+  @media (min-width: 1024px) {
+    #cleandrive {
+      background-attachment: fixed;
+  
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #cleandrive {
+      height: auto;
+    }
+    #cleandrive h1 {
+ 
+      font-size: 22px;
+   margin-top: 45px;
+    }
+    #cleandrive h2 {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+
+
+
+
+
+
+  #aboutus {
+    width: 100%;
+    height: 45vh;
+    background: url("https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80") top center;
+    background-size: cover;
+    position: relative;
+ 
+ 
+  }
+  
+  #aboutus:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.723);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #aboutus .container {
+    position: relative;
+    padding-top: 74px;
+    text-align: center;
+  }
+  
+  #aboutus h1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #aboutus h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0 0 0;
+    font-size: 20px;
+  }
+  
+
+  
+  @media (min-width: 1024px) {
+    #aboutus {
+      background-attachment: fixed;
+  
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #aboutus {
+      height: auto;
+    }
+    #aboutus h1 {
+ 
+      font-size: 28px;
+      line-height: 36px;
+   margin-top: 70px;
+    }
+    #aboutus h2 {
+      font-size: 17px;
+      line-height: 24px;
+    }
+  }
+
